@@ -1,6 +1,7 @@
 import { DatadogUser } from './logger';
 
 import { Account } from 'frontend/types/account';
+import { Task } from 'frontend/types/task';
 import {
   AsyncError,
   AsyncResult,
@@ -13,6 +14,7 @@ import { UserMenuDropdownItem } from 'frontend/types/user-menu-dropdown-item';
 export {
   AccessToken,
   Account,
+  Task,
   ApiError,
   ApiResponse,
   AsyncError,
